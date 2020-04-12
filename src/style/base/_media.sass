@@ -1,0 +1,86 @@
+@media (max-width: 1200px) 
+  .container
+    padding: 0 10px
+
+@media (max-width: 991px) 
+  .about
+    &__contact-block
+      flex-direction: column
+  .contact
+    &__label
+      width: 25%
+    &__inputs
+      width: 60%
+
+@media (max-width: 850px)
+  .skills
+    &__logo
+      height: 65px
+
+@media (max-width: 767px)
+  .header
+    &__title
+      text-align: center
+      font-size: 60px
+      margin-bottom: 40px
+    &__text
+      width: 80%
+  .about
+    &__wrapper
+      flex-direction: column
+      align-items: center
+    &__main-block
+      width: 80%
+      margin-top: 35px
+  .skills
+    &__logo
+      height: 93px
+  .works
+    &__item
+      width: 70vw
+      height: 70vw
+  .contact
+    &__input-block
+      &:last-child
+        label
+          display: none
+      flex-direction: column
+    &__label
+      margin-top: 0
+    &__input, &__textarea
+      width: 100%
+    &__button
+      width: 40%
+
+@media (max-width: 575px)
+  .header
+    &__title
+      font-size: 35px
+  .about__contact-info
+    margin-right: 0
+  .contact
+    &__content
+      flex-direction: column
+      align-items: center
+    &__inputs
+      width: 90%
+      margin-right: 0
+    &__label
+      width: 30%
+    &__textarea
+      height: 300px
+    &__button
+      display: block
+      margin: 0 auto
+      width: 50%
+      padding: 12px 10px
+    &__info
+      display: flex
+      flex-wrap: wrap
+      justify-content: center
+      margin-top: 15px
+    &__info-block
+      margin: 0px 5px
+      width: 40%
+  .alert
+    width: 90%
