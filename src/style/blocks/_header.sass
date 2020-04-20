@@ -25,9 +25,14 @@
     margin-bottom: 15px
   &__icons
     font-size: 40px
-    i
+    a
       margin-right: 20px
-    i:last-child
+      color: white
+      transition: color $buttons-transition
+      &:hover
+        color: #2fdecf
+        cursor: pointer
+    a:last-child
       margin-right: 0px
   &__scroll-arrow
     position: absolute
